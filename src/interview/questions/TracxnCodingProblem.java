@@ -9,11 +9,12 @@ import java.util.Map;
 public class TracxnCodingProblem {
 	
 	public static void main(String args[]) {
-		int Q = 7;
+		int Q = 8;
 		List<List<Integer>> queries = new ArrayList<>();
 		queries.add(Arrays.asList(1, 2));
 		queries.add(Arrays.asList(1, 4));
 		queries.add(Arrays.asList(1, 3));
+		queries.add(Arrays.asList(1, 2));
 		queries.add(Arrays.asList(1, 2));
 		queries.add(Arrays.asList(1, 6));
 		queries.add(Arrays.asList(2, -1));
