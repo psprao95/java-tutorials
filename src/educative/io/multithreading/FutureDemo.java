@@ -19,7 +19,7 @@ public class FutureDemo {
 	
 	
 	//example 1: future returns an integer value
-	public static int findSum(int n) throws ExecutionException, InterruptedException {
+	public static int findSum(final int n) throws ExecutionException, InterruptedException {
 		
 		// approach 1: create instance of class that implements Callable
 		//Callable<Integer> myCallable = new CallableImpl(100);
@@ -40,7 +40,7 @@ public class FutureDemo {
 		return myFuture.get();
 	}
 	
-	// future throws an exception
+	// example 2: future throws an exception
 	public static int findSumWithException(final int n) throws ExecutionException, InterruptedException {
 		int result = -1;
 		
