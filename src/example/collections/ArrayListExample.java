@@ -19,11 +19,14 @@ public class ArrayListExample {
 		System.out.println(list);
 		
 		List<Integer> secondList = new ArrayList<Integer>();
-		secondList.add(8);
-		secondList.add(9);
-		secondList.add(10);
+		secondList.add(88);
+		secondList.add(99);
+		secondList.add(99);
 		
 		list.addAll(secondList);
+		System.out.println(list);
+		
+		list.addAll(4, secondList);
 		System.out.println(list);
 		
 		System.out.println("The element at index 4 is: "+list.get(4));

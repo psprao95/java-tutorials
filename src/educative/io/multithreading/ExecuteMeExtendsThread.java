@@ -1,4 +1,4 @@
-package example.multithreading;
+package educative.io.multithreading;
 
 public class ExecuteMeExtendsThread extends Thread {
 	

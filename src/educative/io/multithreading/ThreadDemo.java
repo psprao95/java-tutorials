@@ -1,4 +1,4 @@
-package example.multithreading;
+package educative.io.multithreading;
 
 import java.lang.Runnable;
 

@@ -1,4 +1,4 @@
-package example.multithreading;
+package educative.io.multithreading;
 
 public class ExecuteMe implements Runnable{
 	
@@ -8,3 +8,5 @@ public class ExecuteMe implements Runnable{
 	}
 
 }
+
+
