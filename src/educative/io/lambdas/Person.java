@@ -6,6 +6,11 @@ public class Person {
 	private String name;
 	private String country;
 	
+	public Person(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+	
 	public Person(int age, String name, String country){
 		this.age = age;
 		this.name = name;
