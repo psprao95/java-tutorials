@@ -20,7 +20,9 @@ public class PredicateDemo {
 		Predicate<Integer> isAMultipleOfFive = i -> i%5 == 0;
 		Predicate<Integer> isAMultipleOfThree = i -> i%3 == 0;
 		Predicate<Integer> isAMultipleOfThreeOrFive = isAMultipleOfThree.or(isAMultipleOfFive);
-		System.out.println("Number is a multiple of 3 or 5: " + isAMultipleOfThreeOrFive.test(49));
+		System.out.println("49 is a multiple of 3 or 5: " + isAMultipleOfThreeOrFive.test(49));
+		System.out.println("30 is a multiple of 3 or 5: " + isAMultipleOfThreeOrFive.test(30));
+		System.out.println("18 is a multiple of 3 or 5: " + isAMultipleOfThreeOrFive.test(18));
 		
 		// negate function
 		Predicate<Integer> isAMultipleOfTen = p -> p%10 == 0;
